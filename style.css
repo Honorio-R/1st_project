@@ -177,3 +177,51 @@ video{
 	text-align: center;
 	display: flex;
 }
+
+/* SIGN UP SECTION STYLE */
+#signup-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signup-container{
+	height: 100px;
+	width:  750px;;
+	background-color: #3882F6;
+	border: 1px solid #3882F6;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	gap: 90px;
+	align-items: center;
+}
+
+.left-container{
+ display: flex;
+ flex-direction: column;
+}
+
+.signup-heading{
+	font-size: 18px;
+	color: #F9FAF8;
+	font-weight: 800;
+}
+
+.signup-text{
+	color: #e5e7eb;
+	
+}
+
+.right-container{
+	display: flex;
+ 	flex-direction: column;
+}
+
+.signup-button{
+	color: #F9FAF8;
+	background-color: #3882F6;
+	border: 2px solid #F9FAF8;
+	border-radius: 5px;
+	padding: 4px 16px ;
+}
