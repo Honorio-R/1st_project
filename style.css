@@ -21,7 +21,7 @@ body{
 	gap: 8px;
 }
 
-.logo{
+#logo{
 	height: 30px;
 	width: 30px;
 	margin: 0;
@@ -38,6 +38,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin-right: 30px;
 	gap: 20px;
 }
 
@@ -68,7 +69,7 @@ a{
 	text-decoration: none;
 }
 
-/* HOMES SECTION STYLE */
+/* HOME SECTION STYLE */
 .home-container{
 	background-image: url(/home/background.jpg);
 	background-size: cover;
@@ -113,4 +114,66 @@ video{
 	height: 360px;
 	width: 640px;
 	border-radius: 5px;
+}
+
+/* PROGRAMMER SECTION STYLE */
+.prog-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1 1 auto;
+}
+
+.prog-heading{
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+	margin: 30px 0 50px 0;
+	text-align: center;
+}
+
+.item-container{
+	margin: 50px 0 50px 0;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: baseline;
+	flex: 1;
+	padding: 0 60px;
+}
+
+.item{
+	height: 400px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.prog-images{
+	height: 200px;
+	width: 200px;
+	border: 3px solid rgb(71, 71, 253);
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.info{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: baseline;
+ flex-wrap: wrap;
+}
+
+.name,
+.book{
+	color: #444444;
+	font-weight: 800;
+}
+
+.book{
+	text-align: center;
+	display: flex;
 }
